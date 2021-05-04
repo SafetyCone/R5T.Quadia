@@ -1,0 +1,9 @@
+R5T.Quadia.Base - Base service definitions library for organization data directory path provider service.
+
+* Async.
+* Parameterless GetX() methods.
+* Stringly-typed paths.
+
+
+Goals
+
