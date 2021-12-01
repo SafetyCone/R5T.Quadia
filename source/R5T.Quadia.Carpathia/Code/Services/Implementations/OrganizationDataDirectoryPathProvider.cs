@@ -4,10 +4,13 @@ using System.Threading.Tasks;
 using R5T.Carpathia;
 using R5T.Lombardy;
 
+using R5T.T0064;
+
 
 namespace R5T.Quadia.Carpathia
 {
-    public class OrganizationDataDirectoryPathProvider : IOrganizationDataDirectoryPathProvider
+    [ServiceImplementationMarker]
+    public class OrganizationDataDirectoryPathProvider : IOrganizationDataDirectoryPathProvider, IServiceImplementation
     {
         private IOrganizationDirectoryPathProvider OrganizationDirectoryPathProvider { get; }
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
