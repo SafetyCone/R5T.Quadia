@@ -1,0 +1,3 @@
+R5T.Quadia.D002.Base - Service definitions for IOrganizationSharedDataDirectoryFilePathProvider and related services.
+
+GOALS:
