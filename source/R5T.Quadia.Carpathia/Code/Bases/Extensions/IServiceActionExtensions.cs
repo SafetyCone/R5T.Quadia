@@ -12,7 +12,7 @@ namespace R5T.Quadia.Carpathia
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="OrganizationDataDirectoryPathProvider"/> implementation of <see cref="IOrganizationDataDirectoryPathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="OrganizationDataDirectoryPathProvider"/> implementation of <see cref="IOrganizationDataDirectoryPathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IOrganizationDataDirectoryPathProvider> AddOrganizationDataDirectoryPathProviderAction(this IServiceAction _,
             IServiceAction<IOrganizationDirectoryPathProvider> organizationDirectoryPathProviderAction,

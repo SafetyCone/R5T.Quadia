@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1573</NoWarn>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Carpathia\source\R5T.Carpathia.Base\R5T.Carpathia.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Dacia.Extensions\source\R5T.Dacia.Extensions\R5T.Dacia.Extensions.csproj" />
@@ -12,5 +12,4 @@
     <ProjectReference Include="..\R5T.Quadia.Base\R5T.Quadia.Base.csproj" />
     <ProjectReference Include="..\R5T.Quadia\R5T.Quadia.csproj" />
   </ItemGroup>
-
 </Project>

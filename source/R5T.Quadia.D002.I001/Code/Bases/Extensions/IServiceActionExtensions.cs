@@ -11,7 +11,7 @@ namespace R5T.Quadia.D002.I001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="OrganizationSharedDataDirectoryPathProvider"/> implementation of <see cref="IOrganizationSharedDataDirectoryPathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="OrganizationSharedDataDirectoryPathProvider"/> implementation of <see cref="IOrganizationSharedDataDirectoryPathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IOrganizationSharedDataDirectoryPathProvider> AddOrganizationSharedDataDirectoryPathProviderAction(this IServiceAction _,
             IServiceAction<IOrganizationDataDirectoryPathProvider> organizationDataDirectoryPathProviderAction)
@@ -23,7 +23,7 @@ namespace R5T.Quadia.D002.I001
         }
 
         /// <summary>
-        /// Adds the <see cref="OrganizationSharedDataDirectoryFilePathProvider"/> implementation of <see cref="IOrganizationSharedDataDirectoryFilePathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="OrganizationSharedDataDirectoryFilePathProvider"/> implementation of <see cref="IOrganizationSharedDataDirectoryFilePathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IOrganizationSharedDataDirectoryFilePathProvider> AddOrganizationSharedDataDirectoryFilePathProviderAction(this IServiceAction _,
             IServiceAction<IOrganizationSharedDataDirectoryPathProvider> organizationSharedDataDirectoryPathProviderAction,
